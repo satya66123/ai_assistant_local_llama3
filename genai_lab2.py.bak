@@ -77,7 +77,7 @@ def retrieve_top_chunks(query, chunks, top_k=3):
 # UI: Sidebar settings
 # ----------------------
 st.sidebar.title("Settings")
-model_choice = st.sidebar.selectbox("Select model", options=["phi3", "llama3"], index=0)
+model_choice = st.sidebar.selectbox("Select model", options=["phi3", "llama3", "phi3-mini"], index=0)
 temperature = st.sidebar.slider("Temperature", 0.0, 1.0, 0.2, 0.05)
 num_predict = st.sidebar.number_input("Max tokens (num_predict)", min_value=64, max_value=2048, value=512, step=64)
 streaming_checkbox = st.sidebar.checkbox("Enable streaming in Chat", value=True)
