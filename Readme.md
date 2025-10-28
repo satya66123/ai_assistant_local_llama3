@@ -67,17 +67,6 @@ Open the local Streamlit URL shown in the terminal (usually `http://localhost:85
 
 * Memory issues: Reduce chunk sizes in the app or use smaller models.
 
----
-
-## Next steps (optional)
-
-* Add vector-based retrieval (sentence-transformers + FAISS) for more accurate Doc Q&A.
-* Create a lightweight API wrapper (FastAPI / Flask) around your Ollama calls for integration with other services.
-* Add a simple login layer if you plan to share the app in a server environment.
-
----
-Here’s a complete, clear **`README.md`** for your `genai_lab.py` project 👇
-You can copy this directly into a file named `README.md` in the same folder.
 
 ---
 
@@ -169,7 +158,7 @@ In the sidebar, you can choose:
 
 * `phi3` – small, fast, good for summarization and chat.
 * `llama3` – larger, smarter, but slower.
-* `phi3-mini` – ultra-light model for very low-end systems.
+
 
 All responses are processed locally via the Ollama runtime.
 
@@ -206,7 +195,7 @@ No data is sent to external servers — your documents and questions stay on you
 ## 🧑‍💻 Author
 
 **Satya Srinath**
-📧 [satyasrinath6@gmail.com](mailto:satyasrinath6@gmail.com)
+📧 [satyasrinath666@gmail.com](mailto:satyasrinath666@gmail.com)
 
 Built for local GenAI experimentation, research, and personal productivity.
 
